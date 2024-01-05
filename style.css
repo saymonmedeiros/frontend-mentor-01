@@ -1,0 +1,80 @@
+body{
+    margin-left: 550px;
+    background-color:hsl(47, 88%, 63%);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    width: 372px;
+    height: 511px;
+    border-radius: 18px;
+    box-shadow: 5px 5px rgba(5, 5, 5, 10);
+}
+
+.image{
+    overflow: hidden;
+    width: 320px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.image img{
+    width: 320px;
+}
+
+.aprendizado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    border-radius: 7px;
+    background-color: hsl(47, 88%, 63%);
+    width: 79px;
+    height: 28px;
+    
+}
+
+.data-publicacao{
+    width: 100%;
+    margin-left: 50px;
+}
+
+.descricao{
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+    width: 320px;
+
+}
+.div1 {
+   margin-top: 20px;
+   width: 100%;
+   margin-left: 50px;
+
+}
+.saymon {
+width: 32px;
+height: 32px;
+}
+
+.fim{
+    display: flex;
+    justify-content:left;
+    margin-left: 50px;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    margin-top: -10px;
+}
+
+.attribution{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    width: 372px;
+    justify-content: center;
+}
+
